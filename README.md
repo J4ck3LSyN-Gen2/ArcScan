@@ -96,7 +96,7 @@ python3 ArcScan.py -q "Skyline" -v
 Audit specific OT and cybersecurity vectors with JSON output:
 
 ```bash
-python3 ArcScan.py --ot --cyber -v --json ot.json
+python3 ArcScan.py --ot --cyber -v --json
 
 ```
 
@@ -110,7 +110,7 @@ python3 ArcScan.py --its --vms -l "Texas" -v --max 200
 Execute a full-spectrum operational scan using 16 workers and export to CSV:
 
 ```bash
-python3 ArcScan.py -a --workers 16 -v --csv scan_results.csv
+python3 ArcScan.py -a --workers 16 -v --csv
 
 ```
 
