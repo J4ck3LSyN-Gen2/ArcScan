@@ -6,7 +6,8 @@
 
 [![Version](https://img.shields.io/badge/version-0.1.2-blue?style=for-the-badge)](https://github.com/J4ck3LSyN-Gen2/ArcScan)
 [![Python](https://img.shields.io/badge/python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Requests](https://img.shields.io/badge/requests-required-orange?style=for-the-badge)](https://pypi.org/project/requests/)
+[![OSINT](https://img.shields.io/badge/OSINT-Focused-red?style=for-the-badge)](https://pypi.org/project/requests/)
+[![ARCGIS](https://img.shields.io/badge/ARCGIS-Recon-green?style=for-the-badge)](https://arcgis.com)
 
 </div>
 
