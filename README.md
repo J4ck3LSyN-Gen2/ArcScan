@@ -14,6 +14,7 @@
 
 **ArcScan** is a lightweight reconnaissance utility that queries the public ArcGIS REST search API for operational dashboards and reports their visibility status. It is designed for open-source intelligence (OSINT), situational awareness research, and authorized testing.
 
+> [!WARNING]
 > **Disclaimer**  
 > This tool only interacts with publicly available ArcGIS endpoints.  
 > Use it only against targets you own or have explicit permission to assess.  
