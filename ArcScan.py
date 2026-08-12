@@ -177,16 +177,16 @@ class ArcScan:
         else: verbosity = True
         self.log = ArcLogger("ArcScan",verbosity=verbosity)
         if args.page_size != self.config.DEFAULT_PAGE_SIZE:
-            self.FL.pipe(f"Configured page_size to: {str(args.page_size)}") 
+            self.log.pipe(f"Configured page_size to: {str(args.page_size)}") 
             self.config.DEFAULT_PAGE_SIZE = args.page_size
         if args.delay != self.config.DEFAULT_DELAY:
-            self.FL.pipe(f"Configured Delay to: {str(args.delay)}")
+            self.log.pipe(f"Configured Delay to: {str(args.delay)}")
             self.config.DEFAULT_DELAY = args.delay
         if args.timeout != self.config.DEFAULT_TIMEOUT:
-            self.FL.pipe(f"Configured Timeout to: {str(args.timeout)}")
+            self.log.pipe(f"Configured Timeout to: {str(args.timeout)}")
             self.config.DEFAULT_TIMEOUT = args.timeout
         if args.workers != self.config.DEFAULT_VERIFY_WORKERS:
-            self.FL.pipe(f"Configured Workers to: {str(args.workers)}")
+            self.log.pipe(f"Configured Workers to: {str(args.workers)}")
             self.config.DEFAULT_VERIFY_WORKERS = args.workers
         self.pageSize = min(max(1,self.config.DEFAULT_PAGE_SIZE),self.config.MAX_PER_PAGE)
         self.delay = max(0.0,self.config.DEFAULT_DELAY)
